@@ -1,0 +1,30 @@
+aside {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 15px;
+}
+
+#links {
+  color: var(--text-color);
+  display: flex;
+  width: 250px;
+  height: 250px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#links > a {
+  color: inherit;
+  display: inherit;
+  max-width: max-content;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#links > a > img {
+  margin-right: 7px;
+}
+
+#links > a:hover {
+  color: aliceblue;
+}

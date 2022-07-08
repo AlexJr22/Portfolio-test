@@ -1,0 +1,32 @@
+
+header {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#imagProfile {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(77, 95, 255);
+}
+
+#profile {
+  display: flex;
+  height: 200px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name {
+  font-weight: 700;
+}
+
+#subTitle {
+  font-size: 0.8em;
+  font-weight: 1.4em;
+}
