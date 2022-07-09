@@ -1,5 +1,6 @@
 .cards {
   background-color: var(--bg-cards);
   border-radius: 10px;
+  margin-top: 7px;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }

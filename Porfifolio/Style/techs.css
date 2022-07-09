@@ -1,0 +1,27 @@
+#techs {
+  background-color: var(--bg-cards);
+  height: 200px;
+  width: 300px;
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  "row1 row1 row1"
+  "row2 row2 row2"
+  ;
+}
+
+.items {
+  background-color: var(--bg-techs);
+}
+
+#row1 {
+  display: flex;
+  justify-content: space-around;
+  grid-area: row1;
+}
+
+#row2 {
+  display: flex;
+  justify-content: space-around;
+  grid-area: row2;
+}
