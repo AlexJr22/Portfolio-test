@@ -7,7 +7,7 @@ aside {
 #links {
   color: var(--text-color);
   display: flex;
-  width: 250px;
+  width: 300px;
   height: 250px;
   flex-direction: column;
   justify-content: space-evenly;
