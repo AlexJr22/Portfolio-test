@@ -2,26 +2,26 @@
   background-color: var(--bg-cards);
   height: 200px;
   width: 300px;
-  display: grid;
-  grid-template-areas: 
-  "header header header"
-  "row1 row1 row1"
-  "row2 row2 row2"
-  ;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#techs > h3 {
+  margin-left: 7px;
+}
+
+#techs > div {
+  display: flex;
+  justify-content: space-around;
 }
 
 .items {
   background-color: var(--bg-techs);
-}
-
-#row1 {
+  color: #000000c2;
   display: flex;
-  justify-content: space-around;
-  grid-area: row1;
-}
-
-#row2 {
-  display: flex;
-  justify-content: space-around;
-  grid-area: row2;
+  font-size: .9em;
+  justify-content: center;
+  width: 90px;
+  border-radius: 10px;
 }
