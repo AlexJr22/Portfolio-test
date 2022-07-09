@@ -2,9 +2,9 @@
 
 :root {
   --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
+  --text-color: #06bdbd;
+  --bg-cards: rgba(118, 135, 125, 0.155);
+  --bg-techs: #00B9AE;
 }
 
 body {
