@@ -13,4 +13,7 @@ body {
   font-family: Merriweather Sans;
 }
 
-
+aside {
+  flex-direction: column;
+  width: 300px;
+}
