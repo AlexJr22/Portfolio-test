@@ -3,6 +3,7 @@ header {
   margin-top: 15px;
   margin-left: 15px;
   display: flex;
+  width: 300px;
 }
 
 #imagProfile {
