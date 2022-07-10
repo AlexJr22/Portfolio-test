@@ -1,4 +1,23 @@
 #MyProjects {
   height: 400px;
   width: 100%;
+  justify-content: space-between;
+}
+
+#allProjects {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  padding: 0px 21px;
+  justify-content: space-between;
+}
+
+#allPosts {
+  display: flex;
+  justify-content: space-between;
+}
+.posts {
+  display: inline-flex;
+  height: 210px;
+  width: 540px;
 }
