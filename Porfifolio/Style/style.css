@@ -3,7 +3,7 @@
 :root {
   --body-bg-color: #22212C;
   --text-color: #06bdbd;
-  --bg-cards: rgba(118, 135, 125, 0.155);
+  --bg-cards: #76877d28;
   --bg-techs: #00B9AE;
 }
 
@@ -28,4 +28,18 @@ main {
   height: 98vh;
   left: 350px;
   top: 7px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00b9ad75;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: var(--body-bg-color);
 }
