@@ -10,7 +10,7 @@ header {
   width: 150px;
   margin-bottom: 10px;
   border-radius: 50%;
-  border: 3px solid #EAD2AC;
+  border: 3px solid var(--text-color);
 }
 
 #profile {
