@@ -20,12 +20,12 @@ aside {
 }
 
 main {
-  background-color: #00b9ad15;
+  /* background-color: #00b9ad15; */
   display: flex;
   position: absolute;
   margin-top: 8px;
-  max-width: 950px;
-  min-width: 470px;
+  max-width: 1000px;
+  min-width: 490px;
   height: 98vh;
   left: 350px;
   top: 7px;
