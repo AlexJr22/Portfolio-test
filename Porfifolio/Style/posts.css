@@ -4,6 +4,10 @@
   justify-content: space-between;
 }
 
+#allProjects {
+  margin-bottom: 15px;
+}
+
 #allProjects > a {
   color: var(--text-color);
   text-decoration: none;
@@ -29,6 +33,6 @@
 
 }
 .posts {
-  min-height: 210px;
+  min-height: 170px;
   min-width: 490px;
 }
