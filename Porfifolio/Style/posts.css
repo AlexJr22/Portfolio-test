@@ -34,7 +34,30 @@
 }
 
 .posts {
+  display: flex;
+  flex-direction: column;
   height: 170px;
   width: 450px;
   padding: 15px;
+  justify-content: space-evenly;
+}
+
+.status {
+  border: 1px solid var(--bg-techs);
+  border-radius: 20px;
+  margin-left: 21px;
+  padding: 0px 5px;
+}
+
+.posts > p {
+  display: flex;
+  align-items: center;
+}
+
+.posts > p > img {
+  margin-right: 10px;
+}
+
+.posts:hover {
+  color: aqua;
 }
