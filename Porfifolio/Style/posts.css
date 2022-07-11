@@ -23,10 +23,12 @@
 
 #allPosts {
   display: flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+
 }
 .posts {
-  display: inline-flex;
-  height: 210px;
-  width: 470px;
+  min-height: 210px;
+  min-width: 470px;
 }
