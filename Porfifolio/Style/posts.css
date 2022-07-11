@@ -4,6 +4,15 @@
   justify-content: space-between;
 }
 
+#allProjects > a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#allProjects > a:hover{
+  color: aqua;
+}
+
 #allProjects {
   display: flex;
   height: 70px;
