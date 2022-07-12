@@ -35,18 +35,23 @@
 
 .posts {
   display: flex;
+  position: relative;
   flex-direction: column;
-  height: 170px;
+  height: 150px;
   width: 450px;
   padding: 15px;
   justify-content: space-evenly;
 }
 
 .status {
-  border: 1px solid var(--bg-techs);
+  border: 3px solid var(--bg-techs);
   border-radius: 20px;
   margin-left: 21px;
-  padding: 0px 5px;
+  padding: 0px 7px;
+}
+
+.status:hover {
+  border: 3px solid yellow;
 }
 
 .posts > p {
@@ -60,4 +65,12 @@
 
 .posts:hover {
   color: aqua;
+}
+
+.tag {
+  display: flex;
+  border: 2px yellow solid;
+  border-radius: 18px;
+  width: max-content;
+  padding: 0 7px;
 }
