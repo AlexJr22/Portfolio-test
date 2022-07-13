@@ -40,23 +40,23 @@
   height: 150px;
   width: 450px;
   padding: 15px;
-  justify-content: space-evenly;
 }
 
 .status {
-  border: 3px solid var(--bg-techs);
+  border: 2px solid var(--bg-techs);
   border-radius: 20px;
   margin-left: 21px;
   padding: 0px 7px;
 }
 
 .status:hover {
-  border: 3px solid yellow;
+  border: 2px solid yellow;
 }
 
 .posts > p {
   display: flex;
   align-items: center;
+  margin-top: 21px;
 }
 
 .posts > p > img {
@@ -69,8 +69,19 @@
 
 .tag {
   display: flex;
-  border: 2px yellow solid;
+  position: absolute;
   border-radius: 18px;
-  width: max-content;
+  padding: 0 7px;
+  justify-content: space-around;
+  align-items: center;
+  right: 14px;
+  bottom: 21px;
+}
+
+.tag > p {
+  color: #70a4f1;
+  border: 1px rgba(255, 255, 0, 0.479) solid;
+  border-radius: 18px;
+  margin-left: 7px;
   padding: 0 7px;
 }
