@@ -1,87 +1,14 @@
-#MyProjects {
-  height: 400px;
+
+#recentPosts {
+  position: absolute;
   width: 100%;
-  justify-content: space-between;
 }
 
-#allProjects {
-  margin-bottom: 15px;
-}
-
-#allProjects > a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-#allProjects > a:hover{
-  color: aqua;
-}
-
-#allProjects {
+.title {
   display: flex;
   height: 70px;
-  align-items: center;
-  padding: 0px 21px;
-  justify-content: space-between;
-}
-
-#allPosts {
-  display: flex;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-
-.posts {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  height: 150px;
-  width: 450px;
-  padding: 15px;
-}
-
-.status {
-  border: 2px solid var(--bg-techs);
-  border-radius: 20px;
-  margin-left: 21px;
-  padding: 0px 7px;
-}
-
-.status:hover {
-  border: 2px solid yellow;
-}
-
-.posts > p {
-  display: flex;
-  align-items: center;
   margin-top: 21px;
-}
-
-.posts > p > img {
-  margin-right: 10px;
-}
-
-.posts:hover {
-  color: aqua;
-}
-
-.tag {
-  display: flex;
-  position: absolute;
-  border-radius: 18px;
-  padding: 0 7px;
-  justify-content: space-around;
+  padding: 0px 21px;
   align-items: center;
-  right: 14px;
-  bottom: 21px;
-}
-
-.tag > p {
-  color: #70a4f1;
-  border: 1px rgba(255, 255, 0, 0.479) solid;
-  border-radius: 18px;
-  margin-left: 7px;
-  padding: 0 7px;
+  justify-content: center;
 }
