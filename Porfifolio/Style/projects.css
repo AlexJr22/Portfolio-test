@@ -49,8 +49,10 @@
   padding: 0px 7px;
 }
 
-.status:hover {
-  border: 2px solid yellow;
+.project:hover {
+  border: 1px solid yellow;
+  height: 149px;
+  width: 429px;
 }
 
 .project > p {
