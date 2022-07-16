@@ -1,7 +1,10 @@
 
-#recentPosts {
+#recentPosts {  
   position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  justify-content: space-around;
 }
 
 .title {
@@ -11,4 +14,23 @@
   padding: 0px 21px;
   align-items: center;
   justify-content: center;
+}
+
+#PostAll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post {
+  display: flex;
+  position: relative;
+  height: 150px;
+  width: 430px;
+  padding: 15px;
+}
+
+.post:hover {
+  box-shadow: 0px 0px 21px rgba(90, 50, 252, 0.5);
+  cursor: pointer;
 }

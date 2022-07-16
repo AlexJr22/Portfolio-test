@@ -27,10 +27,8 @@
 
 #allPosts {
   display: flex;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .project {
@@ -51,6 +49,7 @@
 
 .project:hover {
   box-shadow: 0px 0px 21px rgba(90, 50, 252, 0.5);
+  cursor: pointer;
 }
 
 .project > p {
