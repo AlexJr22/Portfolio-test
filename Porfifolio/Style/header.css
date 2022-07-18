@@ -1,6 +1,7 @@
 
 header {
-  margin-top: 15px;
+  margin-top: 14px;
+  position: fixed;
   margin-left: 15px;
   display: flex;
   width: 300px;

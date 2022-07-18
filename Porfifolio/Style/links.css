@@ -1,5 +1,7 @@
 aside {
   display: flex;
+  position: fixed;
+  margin-top: 270px;
   margin-left: 15px;
 }
 
